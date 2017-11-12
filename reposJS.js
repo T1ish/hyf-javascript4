@@ -2923,7 +2923,7 @@ for (let i = 0; i < choosenRepos.length; i++){
   reposDetailLiElement.innerHTML = "" + choosenRepos[i].stargazers_count + " Stars; ";
   reposDetailLiElement.innerHTML += "" + choosenRepos[i].watchers_count + " Watchers; ";
   reposDetailLiElement.innerHTML += "" + choosenRepos[i].forks + " Forks; ";
-  reposDetailLiElement.innerHTML += "" + choosenRepos[i].language + " Language; ";
+  reposDetailLiElement.innerHTML += " Language: " + choosenRepos[i].language;
 
   reposNameList.appendChild(reposNameLiElement);
   reposDetailList.appendChild(reposDetailLiElement);

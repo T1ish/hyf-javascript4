@@ -3,4 +3,36 @@
 	flex-direction: column;
 	flex-wrap: wrap;
 	height: 300px;
+	list-style-type: none;
+	color: white; 
+	font-size: 24px;
+
+}
+
+
+
+.reposNames li{
+	background-color: #008080;
+	margin: 5px;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+
+.reposDetails li{
+	background-color: #4B0082;
+	margin: 5px;
+	margin-right: 25%;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+img {
+	border: solid black 1px;
+	height: 80%;
+	margin-left: 2%;
 }
