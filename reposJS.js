@@ -2852,7 +2852,7 @@ const reposJSONString = `[
 ]`;
 
 
-//Why does this one give an error?????
+//Remember to use `JSON multi line string in here` <--- These reverse ticks are needed for multilines in morden JS.
 const allRepos = JSON.parse(reposJSONString);
 
 
