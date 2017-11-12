@@ -1,4 +1,4 @@
-const reposJSONString = [
+const reposJSONString = `[
   {
     "id": 65021716,
     "name": "AngularJS",
@@ -2849,13 +2849,12 @@ const reposJSONString = [
       "pull": true
     }
   }
-];
+]`;
 
 
 //Why does this one give an error?????
-//const allRepos = JSON.parse(reposJSONString);
+const allRepos = JSON.parse(reposJSONString);
 
-const allRepos = reposJSONString;
 
 //Step 2: Custom challenge Exercise 1
 console.log(allRepos[2].name);
